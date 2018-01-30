@@ -5,7 +5,7 @@ body{
     box-sizing: border-box;
     width:1880px;
     height:1540px; 
-    background:url(smolniy.github.io/goit-fe-course/html-css/module-03/img/fondz3.jpg); 
+    background:url("smolniy.github.io/goit-fe-course/html-css/module-03/img/fondz3.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: local;

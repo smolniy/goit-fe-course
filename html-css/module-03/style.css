@@ -1,0 +1,130 @@
+
+
+body{
+    display:block;
+    box-sizing: border-box;
+    background:url(D:/goit-fe-course/html-css/module-03/img/fondz3.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:1880px;
+    height:1540px;
+    background-attachment: local;
+    padding-top:75px;  
+    padding-bottom: 75px;
+    
+}
+    
+.wrapper{
+    box-sizing: border-box;
+    padding: 37px;
+    
+    width:480px;
+    height:1390px;
+    background-color:rgba(0, 255, 255, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    
+h2{
+    font-size:25px;
+    
+    font-family: "Pathway Gothic One"; sans-serif;
+    color:#263555; 
+} 
+h4{
+    font-family: "Arial"; sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    line-height:19px;
+    color:#263555; 
+    
+}
+p{
+    font-size:12px; 
+    line-height:17px;
+    font-family: "Arial"; sans-serif;
+    font-weight: lighter;
+    letter-spacing: normal;
+}    
+
+.plane{
+    
+    
+    
+    height:100px; 
+    width:406px;
+    background:url(file:///D:/goit-fe-course/html-css/module-03/dz/img/plane.jpg); 
+    background-size:cover;
+    background-position: top;
+    }
+.imp{
+    display: block;
+    padding-right: 70px;
+    font-family: "Arial"; sans-serif;
+    font-size:12px;
+    line-height:17px;
+    }
+.omp{
+    display: block;
+    padding-right: 70px;
+    font-family: "Arial"; sans-serif;
+    font-size:12px;
+    line-height:17px;
+}
+.velit{
+    display: block;
+    padding-right: 70px;
+    font-family: Arial, sans-serif;
+    font-size:12px;
+    line-height:17px;
+}
+.line1{
+    height:49px; 
+    width:406px;
+    margin-bottom: -3%;
+}
+
+.line2{
+    display: block;
+    height:49px; 
+    width:406px;
+    margin-bottom: -9%;
+    margin-top:0%;
+}
+.content{
+    
+    display: inline-block;
+    width:201px;
+    height:150px;
+    margin-top:0px;
+    
+    
+}
+.sidebar{
+    
+    display: inline-block;
+    vertical-align: top;
+    width:201px;
+    height:150px;
+    margin-top:0px;
+    
+    
+    
+}
+.sidebar p{
+    font-size: 14px;
+    line-height:22px;
+    color:#263555; 
+    font-weight: 500;
+    webkit-font-smoothing:antialiased;sharp;
+    
+    
+    
+}  
+.content p {
+    font-size: 14px;
+    line-height:22px;
+    color:#263555; 
+    font-style: regular;
+} 

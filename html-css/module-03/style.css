@@ -45,7 +45,7 @@ p{
 .plane{
     height:100px; 
     width:406px;
-    background: url(smolniy.github.io/goit-fe-course/html-css/module-03/img/plane.jpg); 
+    background: url(/img/plane.jpg); 
     background-size:cover;
     background-position: top;
     }

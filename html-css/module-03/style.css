@@ -3,7 +3,7 @@
 body{
     display:block;
     box-sizing: border-box;
-    background:url(https://smolniy.github.io/goit-fe-course/html-css/module-03/img/fondz3.jpg); 
+    background:url(smolniy.github.io/goit-fe-course/html-css/module-03/img/fondz3.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     width:1880px;
@@ -54,7 +54,7 @@ p{
     
     height:100px; 
     width:406px;
-    background:url(https://smolniy.github.io/goit-fe-course/html-css/module-03/img/plane.jpg); 
+    background:url(smolniy.github.io/goit-fe-course/html-css/module-03/img/plane.jpg); 
     background-size:cover;
     background-position: top;
     }

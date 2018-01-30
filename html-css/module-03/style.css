@@ -13,7 +13,6 @@ body{
 .wrapper{
     box-sizing: border-box;
     padding: 37px;
-    
     width:480px;
     height:1390px;
     background-color:rgba(0, 255, 255, 0.2);
@@ -24,7 +23,6 @@ body{
     
 h2{
     font-size:25px;
-    
     font-family: "Pathway Gothic One"; sans-serif;
     color:#263555; 
 } 
@@ -45,9 +43,6 @@ p{
 }    
 
 .plane{
-    
-    
-    
     height:100px; 
     width:406px;
     background:url(smolniy.github.io/goit-fe-course/html-css/module-03/img/plane.jpg); 
@@ -115,12 +110,10 @@ p{
     font-weight: 500;
     webkit-font-smoothing:antialiased;sharp;
     
-    
-    
 }  
 .content p {
     font-size: 14px;
     line-height:22px;
     color:#263555; 
-    font-style: regular;
+    
 } 

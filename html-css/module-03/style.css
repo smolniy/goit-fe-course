@@ -45,7 +45,7 @@ p{
 .plane{
     height:100px; 
     width:406px;
-    background-image: url('/img/plane.jpg'); 
+    background-image: url('./img/plane.jpg'); 
     background-size:cover;
     background-position: top;
     }

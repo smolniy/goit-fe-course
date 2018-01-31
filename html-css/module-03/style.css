@@ -8,9 +8,7 @@ body{
     background-attachment: local;
     padding-top:75px;  
     padding-bottom: 75px;
-    
 }
-    
 .wrapper{
     box-sizing: border-box;
     padding: 37px;
@@ -19,9 +17,7 @@ body{
     background-color:white;
     margin-left: auto;
     margin-right: auto;
-    
 }
-    
 h2{
     font-size:25px;
     font-family: Pathway Gothic One, sans-serif;
@@ -33,7 +29,6 @@ h4{
     font-weight: bold;
     line-height:19px;
     color:#263555; 
-    
 }
 p{
     font-size:12px; 
@@ -42,7 +37,6 @@ p{
     font-weight: lighter;
     letter-spacing: normal;
 }    
-
 .plane{
     height:100px; 
     width:406px;
@@ -72,12 +66,12 @@ p{
     line-height:17px;
 }
 .line{
-display:block;
-height: 1px;
-width:406px;
-background:grey;
-margin-top:50px;
-margin-bottom:50px;
+    display:block;
+    height: 1px;
+    width:406px;
+    background:grey;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 .listed1 ul{
     padding-left:20px;
@@ -94,17 +88,13 @@ li{
     padding-right:20px;
     padding-bottom:10px;
 }
-
 .listed1 {
     display:inline-block;
     box-sizing: content-box;
     width:201px;
     height:150px;
     vertical-align: top; 
-    
-     
 }
-
 .listed2 {
     display: inline-block;
     box-sizing: content-box;

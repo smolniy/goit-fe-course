@@ -20,8 +20,6 @@ body{
     background-color:white;
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
 .img{
     height:100px; 
@@ -54,16 +52,11 @@ p{
     font-weight: lighter;
     letter-spacing: normal;
 }    
-
-.plane{
-    height:100px; 
-    width:406px;
-}    
-    .imp{
+.imp{
     display: block;
     padding-right: 70px;
     margin-top:-25px;
-    font-family: "Arial"; sans-serif;
+    font-family: Arial, sans-serif;
     font-size:12px;
     line-height:17px;
     }

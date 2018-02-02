@@ -1,0 +1,168 @@
+
+body{
+    background:url('./img/fondz3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    padding-top:75px;  
+    padding-bottom: 75px;
+    
+}
+.wrapper{
+   width:1024px; 
+   height:1300px;
+   margin:auto;
+   background: white;
+}
+.first{
+    display:inline-block;
+    width:645px;
+    margin-left:60px;
+    padding-top:120px;
+    
+}
+.sec{
+    display:inline-block;
+    width:210px;
+    margin-left:45px;
+    margin-right:px;
+    vertical-align: top;
+    padding-top:120px;
+    padding-bottom: 0px;
+}
+.article{
+    display:inline-block;
+    width:645px;
+    margin-left:60px;
+}
+.sidebar{
+    display:inline-block;
+    width:210px;
+    margin-left:45px;
+    vertical-align: top;
+}
+
+.head{
+    font-family: "Pathway Gothic One", sans-sefif;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-top:0px;
+    margin-bottom:48px;
+    color:#263555;
+    
+}
+.head2{
+    font-family: "Pathway Gothic One", sans-sefif;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-top:-8px;
+    margin-bottom:50px;
+    color:#263555;
+    
+}
+.zag, h4 {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    color:#263555;
+    font-weight: normal;
+    margin-bottom:10px;
+}
+.img{
+    float:left;
+    margin-right:22px;
+    margin-bottom:21px;
+}
+p{
+    font-size:13px;
+    font-family: Arial, sans-sefif;
+    line-height: 19px;
+    font-weight: normal;
+    margin-top:0px;
+    margin-bottom:10px;
+}
+.line{
+    display:block;
+    width:900px;
+    height: 1px;
+    background:grey;
+    margin-top:29px;
+    margin-bottom:50px;
+    margin-left:60px;
+
+}
+
+.list1{
+    list-style: none;
+    counter-reset:li ;
+}
+.list1 li::before{
+    content: counter(li) ;
+    counter-increment:li;
+    float:left;
+    background:#3bafe4;
+    width:28px;
+    height: 28px;
+    display:block;
+    border-radius: 18px;
+    text-align: center;
+    margin-left:-40px;
+    font-size: 13px;
+    line-height: 28px;
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+.list2 li{
+    list-style: none; 
+    display: inline-block;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color:#263555;
+    line-height: 15px;
+    margin-bottom:15px;
+    margin-top:10px;
+    width:250px;
+    margin-right: 20px;
+    
+}
+.list2{
+    padding-left: 0px;
+    padding-top: 5px;
+}
+
+.list li::before{
+    content: "\2192";
+    margin-right:15px;
+    color:#3bafe4;
+}
+.smallblock{
+    display: block;
+    box-sizing: border-box;
+    width:210px;
+    height:200px;
+    padding:24px 15px 24px 24px;
+    background:lightgray;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    color:#263555;
+}
+.qts::before, .qts::after{
+content: '\201C';
+}
+.MarkJohnson{
+    display: inline-block;
+    width:210px;
+    margin-top:30px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color:#263555;
+    text-align: center;
+    line-height: 23px;
+}
+.drp{
+    display: inline-block;
+    margin:10px 0px 0px 10px;
+    line-height: 19px;
+}

@@ -8,27 +8,44 @@ body{
     background-attachment: local;
     padding-top:75px;  
     padding-bottom: 75px;
+    
 }
+    
 .wrapper{
+    display:block;
     box-sizing: border-box;
-    padding: 37px;
+    padding: 25px 37px 0px 37px;
     width:480px;
     height:1390px;
-    background-color: white;
+    background-color:white;
     margin-left: auto;
     margin-right: auto;
+    
+    
 }
+.img{
+    height:100px; 
+    width:406px;
+    
+}    
 h2{
+    
+    margin-top: 0px;
+    padding-top:25px;
+    padding-bottom:25px;
     font-size:25px;
-    font-family: Pathway Gothic One, sans-serif;
+    margin-bottom:0px;
+    font-family: "Pathway Gothic One", sans-serif;
     color:#263555; 
 } 
 h4{
+    
     font-family: Arial,  sans-serif;
     font-size:14px;
-    font-weight: bold;
+    font-weight: normal;
     line-height:19px;
     color:#263555; 
+    
 }
 p{
     font-size:12px; 
@@ -37,16 +54,15 @@ p{
     font-weight: lighter;
     letter-spacing: normal;
 }    
+
 .plane{
     height:100px; 
     width:406px;
-    background:url('./img/plane.jpg'); 
-    background-size:cover;
-    background-position: top;
-    }
-.imp{
+}    
+    .imp{
     display: block;
     padding-right: 70px;
+    margin-top:-25px;
     font-family: "Arial"; sans-serif;
     font-size:12px;
     line-height:17px;
@@ -54,7 +70,7 @@ p{
 .omp{
     display: block;
     padding-right: 70px;
-    font-family: Arial, sans-serif;
+    font-family: "Arial"; sans-serif;
     font-size:12px;
     line-height:17px;
 }
@@ -66,39 +82,31 @@ p{
     line-height:17px;
 }
 .line{
+display:block;
+height: 1px;
+width:406px;
+background:grey;
+margin-top:50px;
+margin-bottom:25px;
+}
+.bot{
     display:block;
-    height: 1px;
-    width:406px;
-    background:gray;
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top:-25px;
 }
-.listed1 ul{
-    padding-left:20px;
-}
-.listed2 ul{
-    padding:0px;
+.lines{
+    padding-left:25px;
+    padding-top:15px;
 }
 li{
-    list-style: none;
-    line-height: 22px;
+    display: inline-block;
+    width:45%;
+    line-height:22px;
+    color:#263555;
+    padding-bottom:0px;
+    vertical-align: top;
+    margin-right:17px;
+    margin-bottom:10px;
     font-family: Arial, sans-serif;
     font-size: 14px;
-    color:#263555;
-    padding-right:20px;
-    padding-bottom:10px;
+    list-style: none;
 }
-.listed1 {
-    display:inline-block;
-    box-sizing: content-box;
-    width:201px;
-    height:150px;
-    vertical-align: top; 
-}
-.listed2 {
-    display: inline-block;
-    box-sizing: content-box;
-    vertical-align: top;
-    width:201px;
-    height: 150px;
-} 

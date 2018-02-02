@@ -25,7 +25,6 @@ body{
     display:inline-block;
     width:210px;
     margin-left:45px;
-    margin-right:px;
     vertical-align: top;
     padding-top:120px;
     padding-bottom: 0px;
@@ -49,15 +48,17 @@ body{
     margin-top:0px;
     margin-bottom:48px;
     color:#263555;
+    font-weight:400;
     
 }
 .head2{
-    font-family: "Pathway Gothic One", sans-sefif;
+    font-family: "Pathway Gothic One", sans-serif;
     text-transform: uppercase;
     font-size: 32px;
     margin-top:-8px;
     margin-bottom:50px;
     color:#263555;
+    font-weight:400;
     
 }
 .zag, h4 {
@@ -75,32 +76,32 @@ body{
 }
 p{
     font-size:13px;
-    font-family: Arial, sans-sefif;
+    font-family: Arial, sans-serif;
     line-height: 19px;
     font-weight: normal;
     margin-top:0px;
     margin-bottom:10px;
+    color:#4e5050;
 }
 .line{
     display:block;
     width:900px;
     height: 1px;
-    background:grey;
-    margin-top:29px;
+    background-color:#dedbdb;
+    margin-top:32px;
     margin-bottom:50px;
     margin-left:60px;
-
 }
-
 .list1{
     list-style: none;
     counter-reset:li ;
+    
 }
 .list1 li::before{
     content: counter(li) ;
     counter-increment:li;
     float:left;
-    background:#3bafe4;
+    background: #38afe5;
     width:28px;
     height: 28px;
     display:block;
@@ -111,8 +112,8 @@ p{
     line-height: 28px;
     font-family: Arial, sans-serif;
     color:white;
+    border:1px solid #aec8d4;
 }
-
 .list2 li{
     list-style: none; 
     display: inline-block;
@@ -138,11 +139,12 @@ p{
 }
 .smallblock{
     display: block;
+    border:1px solid #dedbdb;
     box-sizing: border-box;
     width:210px;
     height:200px;
     padding:24px 15px 24px 24px;
-    background:lightgray;
+    background-color:#fcfafa;
     font-family: Arial, sans-serif;
     font-size: 15px;
     line-height: 19px;
@@ -151,7 +153,7 @@ p{
 .qts::before, .qts::after{
 content: '\201C';
 }
-.MarkJohnson{
+.author{
     display: inline-block;
     width:210px;
     margin-top:30px;
@@ -165,4 +167,5 @@ content: '\201C';
     display: inline-block;
     margin:10px 0px 0px 10px;
     line-height: 19px;
+    color:#4e5050;
 }

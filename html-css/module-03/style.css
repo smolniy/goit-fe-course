@@ -33,6 +33,7 @@ h2{
     margin-bottom:0px;
     font-family: "Pathway Gothic One", sans-serif;
     color:#263555; 
+    font-weight:400;
 } 
 h4{
     
@@ -42,6 +43,7 @@ h4{
     line-height:19px;
     color:#263555; 
     
+    
 }
 p{
     font-size:12px; 
@@ -49,6 +51,8 @@ p{
     font-family: Arial, sans-serif;
     font-weight: lighter;
     letter-spacing: normal;
+    font-style:regular;
+    color:#4e5050;
 }    
 .imp{
     display: block;
@@ -61,7 +65,7 @@ p{
 .omp{
     display: block;
     padding-right: 70px;
-    font-family: "Arial"; sans-serif;
+    font-family: Arial, sans-serif;
     font-size:12px;
     line-height:17px;
 }
@@ -76,7 +80,7 @@ p{
 display:block;
 height: 1px;
 width:406px;
-background:grey;
+background:#dedbdb;
 margin-top:50px;
 margin-bottom:25px;
 }
@@ -100,8 +104,4 @@ li{
     font-family: Arial, sans-serif;
     font-size: 14px;
     list-style: none;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 0885c1eebba44ffc4526a40e5f7bcc0b8926e63f

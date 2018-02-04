@@ -51,7 +51,6 @@ p{
     font-family: Arial, sans-serif;
     font-weight: lighter;
     letter-spacing: normal;
-    font-style:regular;
     color:#4e5050;
 }    
 .imp{
@@ -77,12 +76,12 @@ p{
     line-height:17px;
 }
 .line{
-display:block;
-height: 1px;
-width:406px;
-background:#dedbdb;
-margin-top:50px;
-margin-bottom:25px;
+   display:block;
+   height: 1px;
+   width:406px;
+   background:#dedbdb;
+   margin-top:50px;
+   margin-bottom:25px;
 }
 .bot{
     display:block;

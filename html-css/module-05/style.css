@@ -1,0 +1,319 @@
+
+body{
+    background: url(img/fon.jpg);
+    background-size:cover;
+    height: 2112px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.wrapper{
+    position: relative;
+    width:1024px;
+    height: 1175px;
+    background: white;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:70px;
+    padding:60px 60px 135px 60px;
+    box-sizing: border-box;
+}
+header{
+    display:block;
+    box-sizing: border-box;
+    width:1024px;
+    height:230px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+    font-size: 28px;
+    font-family: "Pathway Gothic One", sans-serif;
+    text-transform: uppercase;
+    color:white;
+    font-weight: 100;
+    padding-left:30px;
+}
+ ul > li{
+    display:inline-block;
+    margin-left:25px;
+    margin-right:23px;
+    width:auto;
+    text-align: center;
+    margin-bottom:5px;
+}
+.submenu li{
+    display:inline-block;
+    padding-left:-5px;
+    padding-right: 1px;
+    padding-bottom: 5px;
+    margin: 0%;
+}
+.about{
+    position: relative;
+}
+
+li:hover{
+    color:#263555;
+    
+}
+.about:hover .submenu{
+    display:block;
+    background: white;
+    color:#6b7488;
+    font-size:20px;
+    box-sizing: content-box;
+    border-radius: 3px;
+    list-style:none;
+    margin-top:5px;
+    padding:5px 2px 0px 2px;
+    left:-4px;
+    width:60px;
+}
+
+ul .submenu{
+    display:none;
+    position: absolute;
+    
+}
+.logo{
+    display:inline-block;
+    box-sizing: content-box;
+    width:138px;
+    height:138px;
+    text-align: center;
+    border-radius: 69px;
+    line-height: 135px;
+    margin-right:38px;
+    margin-left:38px;
+    font-family: Dorsa, sans-serif;
+    font-size: 59px;
+    color:#263555;
+    background: white;
+    margin-top:0px;
+    position: relative;
+    bottom: -10px;
+    
+}
+ul .submenu::before{
+    content:'';
+    position: absolute;
+    display: inline-block;
+    width: 10;
+    height: 5;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #ffffff transparent;
+    top:-5px;
+    right:27px;
+}
+.sideblock1{
+    position: absolute;
+    display:inline-block;
+    width:225px;
+    height:60px;
+    background: white;
+    font-family: "Pathway Gothic One", sans-serif;
+    text-transform: uppercase;
+    font-size: 22.41px;
+    font-weight: 600;
+    text-align:center;
+    line-height: 60px;
+    color:#263555;
+    top:280px;
+    border: 1px solid #eceeec;
+}
+.sideblock2{
+    position: absolute;
+    display:inline-block;
+    width:275px;
+    height:60px;
+    background: #38afe5;
+    font-family: "Pathway Gothic One", sans-serif;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 300;
+    text-align:center;
+    line-height: 60px;
+    color:white;
+    top:340px;
+}
+.slider{
+    
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top:505px;
+    left: 100px;
+    
+}
+.slideleft{
+    display: inline-block;
+    width: 45px;
+    height: 90px;
+    background: #38afe5;
+    border-top-left-radius:45px;
+    border-bottom-left-radius:45px;
+    position: relative;
+    margin-right: -5px;
+}
+.slideright{
+    display: inline-block;
+    width: 45px;
+    height: 90px;
+    background: #38afe5;
+    border-top-right-radius:45px;
+    border-bottom-right-radius:45px;
+    position: relative;
+}
+.slideleft:hover{
+    background:#6b7488;
+}
+.slideright:hover{
+    background:#6b7488;
+}
+.slideleft::before{
+    content: '\2190';
+    position: absolute;
+    color:white;
+    left: 60%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+.slideright::before{
+    content: '\2192';
+    position: absolute;
+    color:white;
+    left: 40%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    font-weight: 900;
+}
+h2{
+    font-family: "Pathway Gothic One", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color:  #263555;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-bottom: 40px;
+
+}
+.blockleft{
+    
+    display:inline-block;
+    width:290px;
+    height:270px;
+    margin-right: 13px;
+    margin-left: 0%;
+    position: relative;
+    
+}
+.blockmid{
+    display:inline-block;
+    width:290px;
+    height:270px;
+    margin-right: 13px;
+    position: relative;
+}
+.blockright{
+    display:inline-block;
+    width:290px;
+    height:270px;
+    margin-right:0px;
+    position: relative;
+}
+.venice, .newyork, .paris{
+   display: none;
+   position: absolute;
+}
+.blockright:hover .paris{
+    display: block;
+    box-sizing: border-box;
+    width:145px;
+    height: 271px;
+    right:145px;
+    top:0px;
+    background: #193149;
+    padding-left:10px;
+    padding-right: 9px; 
+}
+.blockleft:hover .venice{
+    display: block;
+    box-sizing: border-box;
+    width:145px;
+    height: 271px;
+    right:145px;
+    top:0px;
+    background: #193149;
+    padding-left:10px;
+    padding-right: 9px; 
+}
+.blockmid:hover .newyork{
+    display: block;
+    box-sizing: border-box;
+    width:145px;
+    height: 271px;
+    right:145px;
+    top:0px;
+    background: #193149;
+    padding-left:10px;
+    padding-right: 9px; 
+
+}
+h3{
+    font-family: "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color:white;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 13px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+p{
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color:#cbc6c6;
+    line-height: 15px;
+    text-align: inherit;
+}
+.button{
+    display: block;
+    width:60px;
+    height: 20px;
+    background: #fbf6f9;
+    border-radius: 4px;
+    border: 1px solid #6b7488;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+.totop{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: #38afe5;
+    position: fixed;
+    right: 475px;
+    top: 850px;
+    transform: translate(70%, 50%);
+}
+.totop::before{
+    
+    content:'\2303';
+    position: absolute;
+    color:white;
+    margin-top: 6px;
+    margin-left: 8px;
+    font-size: 25px;
+}

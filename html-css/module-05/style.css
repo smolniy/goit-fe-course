@@ -178,7 +178,7 @@ ul .submenu::before{
     left: 60%;
     top: 48%;
     transform: translate(-50%,-50%);
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 900;
     
 }
@@ -189,7 +189,7 @@ ul .submenu::before{
     left: 40%;
     top: 48%;
     transform: translate(-50%,-50%);
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 900;
 }
 h2{

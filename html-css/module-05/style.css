@@ -40,6 +40,7 @@ header{
     width:auto;
     text-align: center;
     margin-bottom:5px;
+    
 }
 .submenu li{
     display:inline-block;
@@ -54,8 +55,14 @@ header{
 
 li:hover{
     color:#263555;
+    cursor:pointer;
     
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .about:hover .submenu{
     display:block;
     background: white;
@@ -64,7 +71,7 @@ li:hover{
     box-sizing: content-box;
     border-radius: 3px;
     list-style:none;
-    margin-top:5px;
+    margin-top:2px;
     padding:5px 2px 0px 2px;
     left:-4px;
     width:60px;
@@ -146,6 +153,15 @@ ul .submenu::before{
     left: 100px;
     
 }
+.slide_container{
+    width:900px;
+    height: 580px;
+    position: relative;
+}
+.pic{
+    position: absolute;
+    top:0px;
+}
 .slideleft{
     display: inline-block;
     width: 45px;
@@ -155,6 +171,8 @@ ul .submenu::before{
     border-bottom-left-radius:45px;
     position: relative;
     margin-right: -5px;
+    right:50px;
+    bottom:60px;
 }
 .slideright{
     display: inline-block;
@@ -164,12 +182,16 @@ ul .submenu::before{
     border-top-right-radius:45px;
     border-bottom-right-radius:45px;
     position: relative;
+    right:50px;
+    bottom:60px;
 }
 .slideleft:hover{
     background:#6b7488;
+    cursor: pointer;
 }
 .slideright:hover{
     background:#6b7488;
+    cursor: pointer;
 }
 .slideleft::before{
     content: '\2190';
@@ -316,4 +338,5 @@ p{
     margin-top: 6px;
     margin-left: 8px;
     font-size: 25px;
+    cursor: pointer;
 }

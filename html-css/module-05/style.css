@@ -44,7 +44,7 @@ header{
 }
 .submenu li{
     display:inline-block;
-    padding-left:-5px;
+    padding-left:0px;
     padding-right: 1px;
     padding-bottom: 5px;
     margin: 0%;
@@ -107,10 +107,10 @@ ul .submenu::before{
     content:'';
     position: absolute;
     display: inline-block;
-    width: 10;
-    height: 5;
+    width: 10px;
+    height: 5px;
     border-style: solid;
-    border-width: 0 5px 5px 5px;
+    border-width: 0px 5px 5px 5px;
     border-color: transparent transparent #ffffff transparent;
     top:-5px;
     right:27px;
@@ -150,8 +150,9 @@ ul .submenu::before{
     position: absolute;
     width: 90px;
     height: 90px;
-    top:450px;
-    left: 50px;
+    top:500px;
+    left:100px;
+
 }
 .slide_container{
     width:900px;

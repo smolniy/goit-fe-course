@@ -1,7 +1,8 @@
 body{
     padding-top:20px;
 }
-.wrapper{
+main{
+    display: block;
     width: 1200px;
     margin: auto;
     padding-top: 0px;
@@ -45,13 +46,15 @@ li{
     padding-bottom: 7px;
 }
 section{
-    margin-top: 85px;
+    display: block;
+    margin-top: 90px;
 }
 h4{
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
     font-weight: 100;
     text-align: center;
+    
 }
 h4::first-letter{
     font-family: "Kaushan Script", cursive;
@@ -60,23 +63,29 @@ h4::first-letter{
     text-transform: uppercase; 
     color:#333333;
 }
-h3{
+h4 span{
+    display: block;
     font-family: Montserrat, sans-serif;
     font-size: 30px;
     text-transform:uppercase;
     font-weight: 600; 
     text-align: center;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 35px;
     color:#333333;
 }
-.line{
+
+h4::after{
+    content: "";
     display: block;
     width: 60px;
     height: 3px;
     background: #f38181;
     margin: auto;
+    
 }
-main{
+
+.article{
     display: flex;
     margin-top: 65px;
     justify-content: space-between;
@@ -145,71 +154,40 @@ p{
     background: linear-gradient(to top, rgba(250, 227, 138, 0.8), 
     rgba(241, 129, 129, 0.8));
     
+    
 }
-.items{
-    display: block;
-    box-sizing: border-box;
+.social a{
+    display: flex;
     width: 55px;
     height: 55px;
     background: #fce38a;
     margin-right: 1px;
-    position: relative;
-    
+    justify-content: center;
+    align-items: center;
 }
-.items :hover{
+.social a:hover{
     background:#95e1d3;
 }
-.items >img {
-    
-    position: absolute;
-    top:30px;
-    left: 28px;
-    transform: translate(-50%, -56%);
-    
-} 
-/*.card_wrapper a{
+.social img{
     display: block;
-    
-    box-sizing: border-box;
-    width: 55px;
-    height: 55px;
-    background: #fce38a;
-    margin-right: 1px;
-    position: absolute;
-}*/
+    margin: 0px auto;
+}
 .card_wrapper{
     width: 380px;
     height: 700px;
 }
 .signs{
     text-align: center;
-    
-    
-}
-.name{
-    color: #333333;
-    font-family: Montserrat, sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-.role{
-    color: #999999;
-    font-family: Roboto, sans-serif;
-    font-size: 15px;
-    font-style: italic;
-    
 }
 
-.signs h3{
+.signs > h3{
     color: #333333;
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
     display: inline;
-    
-    
+    text-align: center;
 }
 h3 >span{
     display: block;
@@ -219,5 +197,4 @@ h3 >span{
     font-style: italic;
     margin-top: 15px;
     text-transform: initial;
-
 }

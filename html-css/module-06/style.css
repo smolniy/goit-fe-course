@@ -144,8 +144,9 @@ p{
     height: 470px;
     background: linear-gradient(to top, rgba(250, 227, 138, 0.8), 
     rgba(241, 129, 129, 0.8));
+    
 }
-.items{
+a{
     display: block;
     box-sizing: border-box;
     width: 55px;
@@ -153,28 +154,37 @@ p{
     background: #fce38a;
     margin-right: 1px;
     position: relative;
+    
 }
-.items:hover{
+.items img :hover{
     background:#95e1d3;
 }
 .items >img {
-    display: block;
+    
     position: absolute;
     top:30px;
     left: 28px;
     transform: translate(-50%, -56%);
-    padding: 5px;
+    
 } 
-.items a{
+/*.card_wrapper a{
     display: block;
-    height: 100%;
-}
+    
+    box-sizing: border-box;
+    width: 55px;
+    height: 55px;
+    background: #fce38a;
+    margin-right: 1px;
+    position: absolute;
+}*/
 .card_wrapper{
     width: 380px;
     height: 700px;
 }
 .signs{
     text-align: center;
+    
+    
 }
 .name{
     color: #333333;
@@ -188,4 +198,26 @@ p{
     font-family: Roboto, sans-serif;
     font-size: 15px;
     font-style: italic;
+    
+}
+
+.signs h3{
+    color: #333333;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline;
+    
+    
+}
+h3 >span{
+    display: block;
+    color: #999999;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 15px;
+    text-transform: initial;
+
 }

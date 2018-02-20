@@ -1,8 +1,8 @@
 body{
     padding-top:20px;
 }
-main{
-    display: block;
+.wrapper{
+    
     width: 1200px;
     margin: auto;
     padding-top: 0px;
@@ -176,20 +176,23 @@ p{
     width: 380px;
     height: 700px;
 }
-.signs{
+figure{
     text-align: center;
 }
 
-.signs > h3{
+figure >figcaption{
+    display: inline-block;
     color: #333333;
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
-    display: inline;
     text-align: center;
+    vertical-align: middle;
+    
+    
 }
-h3 >span{
+figcaption >span{
     display: block;
     color: #999999;
     font-family: Roboto, sans-serif;

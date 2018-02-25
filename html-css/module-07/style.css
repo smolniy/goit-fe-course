@@ -124,11 +124,12 @@ p{
 .contacts{
     width: 100%;
     height: 675px;
-    position: relative;
+    /*position: relative;*/
     background-image: url('img/background.jpg');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
+    
     /*пробовал и так ^^^ сделать, но только при таком варианте как я оставил, картинка фона не
     трансформируется и ведет себя корректно на большом и маленьком мониторе, растягивая только ширину*/
 }
@@ -138,12 +139,14 @@ p{
 }
 .wrapperbox{
     width: 940px;
-    position: absolute;
+    /*position: absolute;
     transform: translate(51%, 0%);
-    top:0px; 
+    top:0px; */
+    padding-top: 5px;
+    margin: auto;
     height: 675px;
-    
 }
+
 .contacts h2{
     font-family: MontserratBold, sans-serif;
     font-size: 40px;
@@ -152,9 +155,9 @@ p{
     color: white;
     text-transform: uppercase;
 }
-.wrapperbox > section{
+/*.wrapperbox > section{
     margin-top:110px;
-}
+}*/
 form{
     display:inline-flex;
     flex-wrap:wrap; 

@@ -1,0 +1,227 @@
+body{
+    padding-top:55px;
+    margin: 0%;
+}
+.wrapper{
+    width: 940px;
+    height: 642px;
+    margin: auto;
+    padding-top: 0px;
+    
+}
+@font-face{
+    font-family: MontserratBold;
+    src:url(fonts/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: MontserratRegular;
+    src:url(fonts/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: DroidSerifItalic;
+    src:url(fonts/Droid-Serif-Italic.ttf);
+}
+@font-face{
+    font-family: RobotoSlabRegular;
+    src:url(fonts/RobotoSlab-regular.ttf);
+}
+@font-face{
+    font-family: Satisfy;
+    src:url(fonts/satisfy-v8-latin-regular.woff);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+    display: inline-block;
+    width: 468px;
+    height: 0px;
+    margin-top: 0px;
+    vertical-align: top;
+    font-family: Satisfy;
+    color: #fed136;
+    font-size: 30px;
+}
+nav{
+    display: inline-block;
+    width: 468px;
+    height: 0px;
+    margin-left: -4px;
+    padding-top: 0px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    font-family: MontserratRegular, sans-serif;
+    color: #222222;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+li:hover{
+    color:#fed136;
+    
+}
+li{
+    padding-bottom: 7px;
+    margin-right: 40px;
+}
+
+h2{
+    font-family: MontserratBold, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+}
+h2 span{
+    display: block;
+    font-family: DroidSerifItalic, sans-serif;
+    font-size: 16px;
+    font-weight: 200; 
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 35px;
+    color:#777777;
+    text-transform: initial;
+}
+section{
+    margin-top: 125px;
+}
+.notes{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 80px;
+    width: 100%;
+}
+.article{
+    text-align: center;
+    width: 275px;
+}
+h4{
+    font-family: MontserratBold, sans-serif;
+    color:#222222;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+p{
+    font-family: RobotoSlabRegular;
+    font-size:13px;
+    color:#777777;
+    font-weight: 500;
+    line-height: 20px;
+}
+.contacts{
+    width: 100%;
+    height: 675px;
+    position: relative;
+    /*background-image: url('img/background.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    пробовал и так ^^^ сделать, но только при таком варианте как я оставил, картинка фона не
+    трансформируется и ведет себя корректно на большом и маленьком мониторе, растягивая только ширину*/
+}
+.contacts > img{
+    width:100%;
+    height: 675px;
+}
+.wrapperbox{
+    width: 940px;
+    position: absolute;
+    transform: translate(51%, 0%);
+    top:0px; 
+    height: 675px;
+    
+}
+.contacts h2{
+    font-family: MontserratBold, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.wrapperbox > section{
+    margin-top:110px;
+}
+form{
+    display:inline-flex;
+    flex-wrap:wrap; 
+}
+.info{
+display: inline-flex;
+flex-wrap:wrap; 
+width: 455px;
+margin-right:24px;
+
+}
+input{
+    width: 455px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    border: none;
+    padding-left: 10px;
+    font-family: RobotoSlabRegular;
+    font-size:14px;
+    
+}
+textarea{
+    display: inline-block;
+    vertical-align: top;
+    width: 455px;
+    height: 210px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+    padding-left: 10px;
+    font-family: RobotoSlabRegular;
+    font-size:14px;
+    margin-left: auto;
+    
+}
+
+input::placeholder, textarea::placeholder{
+    font-family: MontserratBold, sans-serif;
+    color:#bbbbbb;;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height: 50px;
+    padding-left: 10px;
+    
+}
+.button{
+    width: 240px;
+    height: 65px;
+    background: #fed136;
+    border: none;
+    border-radius:3px;
+    font-family: MontserratBold, sans-serif;
+    color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: auto;
+    cursor:pointer;
+    
+}
+
+input:invalid{
+    outline-color: red;
+}
+input:valid{
+    outline-color: green;
+}
+textarea:invalid{
+    outline-color: red;  
+}
+textarea:valid{
+    outline-color: green;  
+}

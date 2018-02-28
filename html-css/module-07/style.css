@@ -77,9 +77,10 @@ h2{
     text-align: center;
     color: #222222;
     text-transform: uppercase;
+    margin-bottom: 0px;
 }
-h2 span{
-    display: block;
+.wrapper > p, .wrapperbox >p{
+    
     font-family: DroidSerifItalic, sans-serif;
     font-size: 16px;
     font-weight: 200; 
@@ -88,6 +89,7 @@ h2 span{
     margin-bottom: 35px;
     color:#777777;
     text-transform: initial;
+    font-style: italic;
 }
 section{
     margin-top: 125px;
@@ -108,17 +110,17 @@ h4{
     font-size: 18px;
     margin-bottom: 10px;
 }
-p{
+.article > p{
     font-family: RobotoSlabRegular;
     font-size:14px;
     color:#777777;
     font-weight: 500;
     line-height: 20px;
+    text-align: center;
+    
 }
 .contacts{
     margin-top: 100px;
-}
-.container{
     width: 100%;
     background-image: url('img/background.jpg');
     background-size:cover;
@@ -126,15 +128,14 @@ p{
     background-repeat: no-repeat;
     padding-top:60px; 
 }
-
-.wrapperbox{
+.wrapperbox {
     max-width: 940px;
     padding-top: 5px;
     margin: auto;
     padding-bottom: 100px;
 }
 
-.container h2{
+.wrapperbox h2{
     font-family: MontserratBold, sans-serif;
     font-size: 40px;
     font-weight: 900;

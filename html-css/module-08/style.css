@@ -202,16 +202,17 @@ margin-left: -0.25rem;
 .wrapperbottom{
     max-width: 492px;
     margin: 4.375rem auto auto auto;
-    
 }  
 .members{    
-    display: inline-flex;
-    justify-content: space-between;
+    display:flex;
+    justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 .partner{
     max-width: 230px;
     margin-bottom: 3.5rem;
+    
 }
 .transparent{
     max-width:13rem;

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MoGo</title>
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,800" rel="stylesheet">
@@ -93,8 +93,6 @@
                     <img src="img/matthew.jpg" alt="Matthew Dix">
                 </picture>
                <div class="cards_social">  
-                
-                
                 <a class="cards_social--items" href="https://facebook.com">
                     <svg class="icon" width="13" height="26">
                         <use xlink:href="#fb"/>
@@ -117,9 +115,7 @@
                   </a>     
                </div>
             </div>
-            <figure>
-                <figcaption> matthew dix<span class="role">Graphic Design</span></figcaption>
-            </figure>
+            <h5 class="cards_sign--name">matthew dix<span class="role">Graphic Design</span></h5>
             </div>
            <div class="cards">
            <div class="cards_middle">
@@ -150,16 +146,16 @@
                   </a>
                 </div>
             </div>
-            <figure>
-                <figcaption> christopher campbell<span class="role">Branding/UX design</span></figcaption>
-            </figure>
+            <h5 class="cards_sign--name">Christopher Campbell<span class="role">Branding/UX design</span></h5>
             </div> 
+            
             <div class="cards">
-                <div class="cards_right">
+            <div class="cards_right">
                     <picture>
-                        <source srcset="img/michael.jpg 1x, img/michael-x2.jpg 2x">
-                        <img src="img/michael.jpg" alt="Michael Fertig">
-                      </picture>
+                    <source srcset="img/michael.jpg 1x, img/michael-x2.jpg 2x">
+                    <img src="img/michael.jpg" alt="Michael Fertig">
+                    </picture>
+                     
                    <div class="cards_social">
                      <a class="cards_social--items" href="https://www.facebook.com/">
                         <svg class="icon" width="13" height="26">
@@ -183,11 +179,11 @@
                      </a>
                     </div>
                 </div>
-                <figure>
-                    <figcaption> michael fertig <span class="role">Developer</span></figcaption> 
-                </figure>
+                <div class="cards_sign">
+                   <h5 class="cards_sign--name">michael fertig <span class="role">Developer</span></h5>
                 </div>
-            </div>
+                </div>
+            </div> 
         </section> 
     </main> 
     <footer>
@@ -195,7 +191,7 @@
             <a href="#" class="copyright_company--name">Laaqic</a>
         </div>
         <form action="#">
-            <input class="placeholder" type="email" placeholder="Your Email...">
+            <input class="placeholder" type="email" required placeholder="Your Email...">
             <input class="button" type="submit" name="button" value="subscribe">
         </form>
     </footer>

@@ -1,0 +1,266 @@
+body {
+  margin: 0%; }
+
+.background_wrapper {
+  width: 100%;
+  padding-bottom: 16.625rem;
+  background-image: linear-gradient(to top, rgba(250, 227, 138, 0.8), rgba(241, 129, 129, 0.8)), url("..//img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%; }
+  .background_wrapper .container {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 1.25rem; }
+    .background_wrapper .container .logo {
+      display: inline-block;
+      width: 43%;
+      height: 4.375rem;
+      margin-top: 0px;
+      vertical-align: top;
+      font-family: Montserrat, sans-serif;
+      color: white;
+      font-size: 1.875rem;
+      font-weight: 600; }
+    .background_wrapper .container .menu {
+      display: inline-block;
+      width: 54%;
+      height: 4.375rem;
+      margin-left: -4px;
+      padding-top: 0px; }
+      .background_wrapper .container .menu_item:hover {
+        color: #fce38a;
+        border-bottom: 3px solid #fce38a;
+        padding-bottom: 7px; }
+      .background_wrapper .container .menu_link {
+        text-decoration: none;
+        color: inherit; }
+      .background_wrapper .container .menu_list {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        font-family: Montserrat, sans-serif;
+        color: white;
+        font-size: 0.875rem;
+        text-transform: uppercase; }
+      .background_wrapper .container .menu_link--busket {
+        display: block;
+        background-image: url("..//icons/busket.svg");
+        width: 18px;
+        height: 15px; }
+      .background_wrapper .container .menu_link--search {
+        display: block;
+        background-image: url("..//icons/search.svg");
+        width: 18px;
+        height: 18px; }
+
+.greeting {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white; }
+  .greeting_subtitle {
+    font-family: "Kaushan Script", cursive;
+    font-size: 4.5rem;
+    font-weight: 100;
+    margin-top: 9.375rem; }
+  .greeting_title {
+    font-family: Montserrat, sans-serif;
+    font-size: 9.375rem;
+    text-transform: uppercase;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto; }
+  .greeting_button {
+    display: block;
+    border: 3px solid white;
+    max-width: 10rem;
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+    margin: 3.125rem auto 0 auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit; }
+
+h4 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center; }
+  h4::first-letter {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #333333; }
+
+.small_header {
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1.875rem;
+  margin-bottom: 2.1875rem;
+  color: #333333; }
+
+.container_bottom {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 1.25rem; }
+  .container_bottom .article {
+    display: flex;
+    margin-top: 4.0625rem;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .container_bottom .article_set {
+      display: block;
+      max-width: 23.125rem;
+      min-height: 6.875rem; }
+    .container_bottom .article_text {
+      font-family: Roboto, sans-serif;
+      font-size: 0.9375rem;
+      color: #999999;
+      margin-top: 3%;
+      text-transform: initial; }
+    .container_bottom .article_icon {
+      float: left;
+      margin-right: 1.5625rem;
+      margin-bottom: 2.5rem; }
+    .container_bottom .article_services {
+      display: inline-block;
+      font-size: 0.875rem;
+      font-family: Montserrat, sans-serif;
+      color: #333333;
+      text-transform: uppercase;
+      vertical-align: top; }
+  .container_bottom .team_text {
+    font-family: Roboto, sans-serif;
+    font-size: 0.9375rem;
+    color: #999999;
+    margin-top: 3%;
+    text-align: center; }
+  .container_bottom .cards_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.9375rem; }
+    .container_bottom .cards_wrapper .cards {
+      max-width: 23.75rem;
+      min-height: 43.75rem; }
+      .container_bottom .cards_wrapper .cards_left, .container_bottom .cards_wrapper .cards_middle, .container_bottom .cards_wrapper .cards_right {
+        position: relative;
+        max-width: 23.75rem;
+        max-height: 29.375rem; }
+        .container_bottom .cards_wrapper .cards_left:hover, .container_bottom .cards_wrapper .cards_middle:hover, .container_bottom .cards_wrapper .cards_right:hover {
+          transform: translate(-10px, -10px);
+          transition: linear 220ms;
+          box-shadow: 10px 10px #95e1d3; }
+      .container_bottom .cards_wrapper .cards_sign--name {
+        display: block;
+        color: #333333;
+        font-family: Montserrat, sans-serif;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center; }
+      .container_bottom .cards_wrapper .cards .role {
+        display: block;
+        color: #999999;
+        font-family: Roboto, sans-serif;
+        font-size: 0.9375rem;
+        font-style: italic;
+        margin-top: 0.9375rem;
+        text-transform: initial; }
+  .container_bottom .cards_social {
+    display: none;
+    position: absolute; }
+  .container_bottom .cards_left:hover .cards_social,
+  .container_bottom .cards_middle:hover .cards_social,
+  .container_bottom .cards_right:hover .cards_social {
+    display: flex;
+    justify-content: center;
+    top: 0%;
+    align-items: center;
+    flex-shrink: 1;
+    width: 23.75rem;
+    height: 29.375rem;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(250, 227, 138, 0.8)), to(rgba(241, 129, 129, 0.8)));
+    background: -webkit-linear-gradient(bottom, rgba(250, 227, 138, 0.8), rgba(241, 129, 129, 0.8));
+    background: -o-linear-gradient(bottom, rgba(250, 227, 138, 0.8), rgba(241, 129, 129, 0.8));
+    background: linear-gradient(to top, rgba(250, 227, 138, 0.8), rgba(241, 129, 129, 0.8)); }
+    .container_bottom .cards_left:hover .cards_social .cards_social--items,
+    .container_bottom .cards_middle:hover .cards_social .cards_social--items,
+    .container_bottom .cards_right:hover .cards_social .cards_social--items {
+      display: flex;
+      width: 3.4375rem;
+      height: 3.4375rem;
+      background: #fce38a;
+      margin-right: 0.0625rem;
+      justify-content: center;
+      align-items: center;
+      fill: #f38181; }
+      .container_bottom .cards_left:hover .cards_social .cards_social--items:hover,
+      .container_bottom .cards_middle:hover .cards_social .cards_social--items:hover,
+      .container_bottom .cards_right:hover .cards_social .cards_social--items:hover {
+        background-color: #f38181;
+        stroke: white;
+        fill: white; }
+  .container_bottom footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 0.625rem; }
+  .container_bottom .copyright {
+    display: block;
+    color: #333333;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500; }
+  .container_bottom .copyright_company--name {
+    color: #f38181;
+    text-decoration: none;
+    line-height: 2.5rem; }
+  .container_bottom form {
+    line-height: 3.125rem; }
+  .container_bottom .button {
+    display: inline-block;
+    min-width: 10rem;
+    height: 2.5rem;
+    background: #95e1d3;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    margin-left: -0.25rem;
+    margin-bottom: 0.3125rem;
+    vertical-align: top;
+    cursor: pointer; }
+  .container_bottom .placeholder {
+    display: inline-block;
+    min-width: 15rem;
+    height: 2.25rem;
+    vertical-align: top;
+    line-height: 0.625rem;
+    color: #e5e5e5;
+    font-family: Roboto, sans-serif;
+    font-size: 0.9375rem;
+    font-style: italic;
+    border: 1px solid #e5e5e5;
+    text-transform: initial;
+    padding-left: 0.625rem; }
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .background_wrapper {
+    width: 100%;
+    padding-bottom: 250px;
+    background-image: linear-gradient(to top, rgba(250, 227, 138, 0.8), rgba(241, 129, 129, 0.8)), url("..//img/background-x2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%; } }

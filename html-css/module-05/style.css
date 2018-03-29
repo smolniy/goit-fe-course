@@ -9,14 +9,13 @@ body{
 .wrapper{
     position: relative;
     width:1024px;
-    height: 1175px;
+    box-sizing: border-box;
     background: white;
     margin-top:0px;
     margin-left:auto;
     margin-right: auto;
-    margin-bottom:70px;
-    padding:60px 60px 135px 60px;
-    box-sizing: border-box;
+    padding:60px 60px 0px 60px;
+    
 }
 header{
     display:block;
@@ -230,8 +229,14 @@ h2{
     margin-bottom: 40px;
 
 }
+.container{
+    width:1024px;
+    box-sizing: border-box;
+    margin:0 auto 0 auto;;
+    padding:60px 0px 135px 60px;
+    background: #ffffff;
+}
 .blockleft{
-    
     display:inline-block;
     width:290px;
     height:270px;
